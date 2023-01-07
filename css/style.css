@@ -63,6 +63,8 @@ header {
 
 .person-title {
     margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 800;
 }
 
 ul li {
@@ -89,23 +91,29 @@ ul li {
     font-size: 20px;
 }
 
+.plan img {
+    width: 70px;
+}
+
 /* watch section */
 .watch-section {
     margin-top: 100px;
-    margin-left: 185px;
+    margin-left: 200px;
     background-color: rgb(62, 102, 189);
-    background-image: linear-gradient(to right, rgb(24, 73, 235), rgb(183, 192, 204))
-    ,url('./img/watch.png');
+    background-image: linear-gradient(to right, rgb(24, 73, 235), rgb(174, 188, 206));
     width: 70%;
     height: 150px;
     background-size: cover;
     color: white;
     padding: 20px;
+    border-radius: 10px;
 }
-.watch-section h1{
+
+.watch-section h1 {
     margin-top: 25px;
 }
-.btn-call-now{
+
+.btn-call-now {
     margin-top: 15px;
     padding: 8px 0;
     width: 100px;
@@ -117,15 +125,39 @@ ul li {
     cursor: pointer;
 }
 
-/* .watch-image {
-    position: absolute;
-    margin-bottom: 200px;
-    width: 950px;
-} */
+
+/*My inspiration section */
+
+.inspiration-section {
+    display: flex;
+    justify-content: center;
+}
+
+.inspiration-left img {
+    width: 450PX;
+    margin-top: 100px;
+    border-radius: 50PX;
+}
+
+.inspiration-right {
+    border-radius: 50PX;
+    margin: auto 50px;
+}
+
+.people-name {
+    margin-top: 20px;
+    color: rgb(13, 53, 88);
+}
+
+.inspiration-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
 
 /* footer section */
 
-footer{
+footer {
     margin-top: 100px;
     background-color: rgb(17, 16, 16);
     height: 60vh;
@@ -133,43 +165,52 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 }
-.footer-left{
+
+.footer-left {
     color: white;
     line-height: 25px;
 }
-.contact-info{
+
+.contact-info {
     margin: 20px 0;
     line-height: 30px;
     font-size: 15px;
 }
-.footer-left-title{
+
+.footer-left-title {
     margin-bottom: 25px;
     font-size: 40px;
 }
-.footer-right-title{
+
+.footer-right-title {
     color: white;
     font-size: 20px;
 }
-.social-icon{
+
+.social-icon {
     display: flex;
     gap: 20px;
 }
-.footer-right{
+
+.footer-right {
     line-height: 50px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.footer-right input{
+
+.footer-right input {
     padding: 8px 20px;
     border: 1px solid white;
     border-radius: 6px;
     background-color: rgb(34, 32, 32);
 }
-.footer-right input::placeholder{
+
+.footer-right input::placeholder {
     color: rgb(193, 195, 197);
 }
-.btn-secondary{
+
+.btn-secondary {
     padding: 8px 0;
     width: 100px;
     border-radius: 6px;
