@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* banner section */
 
-header{
+header {
     background-image: url("../img/banner/banner3.png");
     background-repeat: no-repeat;
     background-size: 1370px 500px;
@@ -13,26 +13,26 @@ header{
     position: relative;
 }
 
-.banner{
+.banner {
     text-align: right;
     left: 50rem;
     position: absolute;
 }
 
-.banner-title{
+.banner-title {
     color: white;
     margin-top: 100px;
     font-size: 45px;
 }
 
-.banner-discription{
+.banner-discription {
     color: white;
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 15px;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 12px;
     border-radius: 5px;
     border: 1px solid white;
@@ -42,26 +42,30 @@ header{
 
 /* person section */
 
-.tick-icon{
+.tick-icon {
     width: 15px;
 }
-.person-section{
+
+.person-section {
     display: flex;
     justify-content: center;
 }
-.person-image{
+
+.person-image {
     width: 400px;
     margin-top: 3rem;
 }
-.person-right-side{
+
+.person-right-side {
     margin-top: 200px;
     margin-left: 60px;
 }
-.person-title{
+
+.person-title {
     margin-bottom: 25px;
 }
 
-ul li{
+ul li {
     list-style-type: none;
     margin-left: -40px;
     margin-top: 10px;
@@ -69,17 +73,109 @@ ul li{
 
 /* plan section */
 
-.plan-section{
+.plan-section {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
 
-.plan{
+.plan {
     text-align: center;
     line-height: 30px;
 }
-.plan-title{
+
+.plan-title {
     font-weight: 900;
     font-size: 20px;
+}
+
+/* watch section */
+.watch-section {
+    margin-top: 100px;
+    margin-left: 185px;
+    background-color: rgb(62, 102, 189);
+    background-image: linear-gradient(to right, rgb(24, 73, 235), rgb(183, 192, 204))
+    ,url('./img/watch.png');
+    width: 70%;
+    height: 150px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+.watch-section h1{
+    margin-top: 25px;
+}
+.btn-call-now{
+    margin-top: 15px;
+    padding: 8px 0;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ffffff;
+    color: #0f49c5;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* .watch-image {
+    position: absolute;
+    margin-bottom: 200px;
+    width: 950px;
+} */
+
+/* footer section */
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(17, 16, 16);
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-left{
+    color: white;
+    line-height: 25px;
+}
+.contact-info{
+    margin: 20px 0;
+    line-height: 30px;
+    font-size: 15px;
+}
+.footer-left-title{
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.footer-right-title{
+    color: white;
+    font-size: 20px;
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-right{
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-right input{
+    padding: 8px 20px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: rgb(34, 32, 32);
+}
+.footer-right input::placeholder{
+    color: rgb(193, 195, 197);
+}
+.btn-secondary{
+    padding: 8px 0;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    background-color: #005fac;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
 }
